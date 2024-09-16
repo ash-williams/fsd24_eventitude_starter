@@ -1,0 +1,101 @@
+[
+    {
+        "test_description": "Test blank name",
+        "name":"",
+        "description":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+        "location":"5504 Farmco Circle",
+        "start":"1768343303000",
+        "close_registration":"1755042612000",
+        "max_attendees":79
+    },
+    {
+        "test_description": "Test blank description",
+        "name":"Sales Representative",
+        "description":"",
+        "location":"5504 Farmco Circle",
+        "start":"1768343303000",
+        "close_registration":"1755042612000",
+        "max_attendees":79
+    },
+    {
+        "test_description": "Test blank location",
+        "name":"Sales Representative",
+        "description":"description",
+        "location":"",
+        "start":"1768343303000",
+        "close_registration":"1755042612000",
+        "max_attendees":79
+    },
+    {
+        "test_description": "Test blank start",
+        "name":"Sales Representative",
+        "description":"description",
+        "location":"5504 Farmco Circle",
+        "start":"",
+        "close_registration":"1755042612000",
+        "max_attendees":79
+    },
+    {
+        "test_description": "Test blank close_registration",
+        "name":"Sales Representative",
+        "description":"description",
+        "location":"location",
+        "start":"1768343303000",
+        "close_registration":"",
+        "max_attendees":79
+    },
+    {
+        "test_description": "Test start time in the past",
+        "name":"Sales Representative",
+        "description":"description",
+        "location":"location",
+        "start":"0",
+        "close_registration":"1755042612000",
+        "max_attendees":79
+    },
+    {
+        "test_description": "Test registration ending after the start time",
+        "name":"Sales Representative",
+        "description":"description",
+        "location":"location",
+        "start":"1768343303000",
+        "close_registration":"1778343303000",
+        "max_attendees":79
+    },
+    {
+        "test_description": "Test no attendees",
+        "name":"Sales Representative",
+        "description":"description",
+        "location":"location",
+        "start":"1768343303000",
+        "close_registration":"1755042612000",
+        "max_attendees":0
+    },
+    {
+        "test_description": "Test invalid start",
+        "name":"Sales Representative",
+        "description":"description",
+        "location":"location",
+        "start":"-1",
+        "close_registration":"1755042612000",
+        "max_attendees":79
+    },
+    {
+        "test_description": "Test invalid close_registration",
+        "name":"Sales Representative",
+        "description":"description",
+        "location":"location",
+        "start":"1768343303000",
+        "close_registration":"-1",
+        "max_attendees":79
+    },
+    {
+        "test_description": "Test invalid max_attendees",
+        "name":"Sales Representative",
+        "description":"description",
+        "location":"",
+        "start":"1768343303000",
+        "close_registration":"1755042612000",
+        "max_attendees":-1
+    }
+]

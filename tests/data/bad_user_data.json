@@ -1,0 +1,79 @@
+[
+    {
+        "test_description": "Test blank first_name",
+        "first_name": "",
+        "last_name": "Linsey",
+        "email": "2elinsey0@gmail.com",
+        "password": "Wr3Xh4m!"
+    },
+    {
+        "test_description": "Test blank last_name",
+        "first_name": "Pearla",
+        "last_name": "",
+        "email": "2pkilpatrick1@gmail.com",
+        "password": "Wr3Xh4m!"
+    },
+    {
+        "test_description": "Test blank email",
+        "first_name": "Purcell",
+        "last_name": "Reddick",
+        "email": "",
+        "password": "Wr3Xh4m!"
+    },
+    {
+        "test_description": "Test blank password",
+        "first_name": "Wakefield",
+        "last_name": "Munt",
+        "email": "wmunt3@gmail.com",
+        "password": ""
+    },
+    {
+        "test_description": "Test duplicate email",
+        "first_name": "Dur",
+        "last_name": "Wogan",
+        "email": "dkells0@gmail.com",
+        "password": "Wr3Xh4m!"
+    },
+    {
+        "test_description": "Test password too short",
+        "first_name": "Vere",
+        "last_name": "Plenty",
+        "email": "2vplenty6@gmail.com",
+        "password": "Wr3Xh4m"
+    },
+    {
+        "test_description": "Test password too long",
+        "first_name": "Douglass",
+        "last_name": "Gile",
+        "email": "2dgile7@gmail.com",
+        "password": "Wr3Xh4m1234567890123456789012345678901"
+    },
+    {
+        "test_description": "Test password without numbers",
+        "first_name": "Douglass",
+        "last_name": "Gile",
+        "email": "2dgile7@gmail.com",
+        "password": "Alligator!"
+    },
+    {
+        "test_description": "Test password without special character",
+        "first_name": "Douglass",
+        "last_name": "Gile",
+        "email": "2dgile7@gmail.com",
+        "password": "Alligator"
+    },
+    {
+        "test_description": "Test password without upper case character",
+        "first_name": "Douglass",
+        "last_name": "Gile",
+        "email": "2dgile7@gmail.com",
+        "password": "alligator!$"
+    },
+    {
+        "test_description": "Test password without lower case character",
+        "first_name": "Douglass",
+        "last_name": "Gile",
+        "email": "2dgile7@gmail.com",
+        "password": "ASHLEY333!"
+    }
+]
